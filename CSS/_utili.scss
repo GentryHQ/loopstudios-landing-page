@@ -1,0 +1,30 @@
+.container {
+    max-width: 1200px;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 120px;
+    position: relative;
+    z-index: 100;
+}
+
+@mixin linkHover {
+    content: "";
+    margin-top: 5px;
+    width: 30px;
+    height: 2px;
+    display: block;
+    background-color: white;
+    position: absolute;
+    transform: translateX(8px);
+    opacity: 0;
+    transition: ease-in 0.5s;
+}

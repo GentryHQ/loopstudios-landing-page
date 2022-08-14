@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <!-- link to animate on scroll library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- link to css file -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Frontend Mentor | Loopstudios landing page</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <a href="/index.html" aria-label="LoopStudios Logo">
+            <img src="./images/logo.svg" alt="Logo" class="logo" />
+          </a>
+
+          <ul class="navigation__links" id="links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+          <img
+            src="./images/icon-hamburger.svg"
+            alt="icon-hamburger"
+            class="navigation__ham"
+            id="ham"
+          />
+          <img
+            src="./images/icon-close.svg"
+            alt="icon-hamburger"
+            class="navigation__close"
+            id="close"
+          />
+        </nav>
+
+        <div class="hero__section">
+          <h1>Immersive experiences that deliver</h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="blob" role="complementary">
+      <div class="container">
+        <div class="blob__img">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="./images/desktop/image-interactive.jpg"
+            />
+
+            <source
+              media="(max-width: 767px)"
+              srcset="./images/mobile/image-interactive.jpg"
+            />
+
+            <img
+              src="./images/mobile/image-interactive.jpg"
+              alt="image-interactive"
+            />
+          </picture>
+        </div>
+
+        <div class="blob__content" data-aos="fade-up">
+          <h2>The leader in interactive VR</h2>
+          <p>
+            Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through
+            digital experiences that bind to their brand.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="showcase" role="img">
+      <div class="container">
+        <div class="showcase__images">
+          <h2>Our creations</h2>
+          <a href="/index.html" class="showcase__cta">See all</a>
+
+          <div class="showcase__img" data-aos="flip-up">
+            <picture class="showcase__image_1">
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/desktop/image-deep-earth.jpg"
+              />
+
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/mobile/image-deep-earth.jpg"
+              />
+
+              <img
+                src="./images/mobile/image-deep-earth.jpg"
+                alt="image-deep-earth"
+              />
+            </picture>
+            <div class="showcase__heading">
+              <h3>
+                Deep <br />
+                earth
+              </h3>
+            </div>
+          </div>
+
+          <div class="showcase__img" data-aos="flip-up">
+            <picture class="showcase__image_2">
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/desktop/image-night-arcade.jpg"
+              />
+
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/mobile/image-night-arcade.jpg"
+              />
+
+              <img
+                src="./images/mobile/image-night-arcade.jpg"
+                alt="image-night-arcade"
+              />
+            </picture>
+            <div class="showcase__heading">
+              <h3>
+                Night <br />
+                arcade
+              </h3>
+            </div>
+          </div>
+
+          <div class="showcase__img" data-aos="flip-up">
+            <picture class="showcase__image_3">
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/desktop/image-soccer-team.jpg"
+              />
+
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/mobile/image-soccer-team.jpg"
+              />
+
+              <img
+                src="./images/mobile/image-soccer-team.jpg"
+                alt="image-soccer-team"
+              />
+            </picture>
+            <div class="showcase__heading">
+              <h3>
+                Soccer <br />
+                team VR
+              </h3>
+            </div>
+          </div>
+
+          <div class="showcase__img" data-aos="flip-up">
+            <picture class="showcase__image_4">
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/desktop/image-grid.jpg"
+              />
+
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/mobile/image-grid.jpg"
+              />
+
+              <img src="./images/mobile/image-grid.jpg" alt="image-grid" />
+            </picture>
+            <div class="showcase__heading">
+              <h3>The <br />grid</h3>
+            </div>
+          </div>
+
+          <div class="showcase__img" data-aos="flip-up">
+            <picture class="showcase__image_5">
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/desktop/image-from-above.jpg"
+              />
+
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/mobile/image-from-above.jpg"
+              />
+
+              <img
+                src="./images/mobile/image-from-above.jpg"
+                alt="image-from-above"
+              />
+            </picture>
+            <div class="showcase__heading">
+              <h3>
+                From up<br />
+                above VR
+              </h3>
+            </div>
+          </div>
+
+          <div class="showcase__img" data-aos="flip-up">
+            <picture class="showcase__image_6">
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/desktop/image-pocket-borealis.jpg"
+              />
+
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/mobile/image-pocket-borealis.jpg"
+              />
+
+              <img
+                src="./images/mobile/image-pocket-borealis.jpg"
+                alt="image-pocket-borealis"
+              />
+            </picture>
+            <div class="showcase__heading">
+              <h3>Pocket <br />borealis</h3>
+            </div>
+          </div>
+
+          <div class="showcase__img" data-aos="flip-up">
+            <picture class="showcase__image_7">
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/desktop/image-curiosity.jpg"
+              />
+
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/mobile/image-curiosity.jpg"
+              />
+
+              <img
+                src="./images/mobile/image-curiosity.jpg"
+                alt="image-curiosity"
+              />
+            </picture>
+            <div class="showcase__heading">
+              <h3>The <br />curiosity</h3>
+            </div>
+          </div>
+
+          <div class="showcase__img" data-aos="flip-up">
+            <picture class="showcase__image_8">
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/desktop/image-fisheye.jpg"
+              />
+
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/mobile/image-fisheye.jpg"
+              />
+
+              <img
+                src="./images/mobile/image-fisheye.jpg"
+                alt="image-curiosity"
+              />
+            </picture>
+            <div class="showcase__heading">
+              <h3>Make it <br />fisheye</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="wrapper">
+          <img src="./images/logo.svg" alt="Logo" class="logo" />
+          <div class="foot__logos">
+            <span class="socials">
+              <a href="#" aria-label="Follow us on Facebook">
+                <img src="./images/icon-facebook.svg" alt="Facebook logo" />
+              </a>
+              <a href="#" aria-label="Follow us on Twitter">
+                <img src="./images/icon-twitter.svg" alt="Twitter logo" />
+              </a>
+              <a href="#" aria-label="Follow us on Pinterest">
+                <img src="./images/icon-pinterest.svg" alt="Pinterest" />
+              </a>
+              <a href="#" aria-label="Follow us on instagram">
+                <img src="./images/icon-instagram.svg" alt="icon-instagram" />
+              </a>
+            </span>
+          </div>
+
+          <ul class="footer__links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers </a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+
+          <p>© 2021 Loopstudios. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- link to my js for menu toggle -->
+    <script src="./app.js" defer></script>
+
+    <!-- Animate on Scroll Library Js src and init -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

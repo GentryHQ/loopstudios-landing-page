@@ -1,0 +1,51 @@
+@use 'variable' as v;
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+html {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+}
+
+body.active {
+    position: fixed;
+}
+
+p {
+    font: {
+        weight: v.$font-weight-400;
+        size: 18px;
+        family: v.$font-stack-1;
+    }
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+    font-family: v.$font-stack-1;
+}
+
+h1,h2,h3,h4,h5,h6 {
+
+    text-transform: uppercase;
+    font: {
+        family: v.$font-stack-2;
+        weight: v.$font-weight-300;
+    }
+}
+
+li {
+    list-style: none;
+}
