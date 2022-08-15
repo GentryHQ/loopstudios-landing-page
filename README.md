@@ -39,7 +39,7 @@ Mobile View
 ### Links
 
 - Solution URL: [GitHub Repo](https://github.com/GentryHQ/loopstudios-landing-page)
-- Live Site URL: [GitHub Page](https://your-live-site-url.com)
+- Live Site URL: [GitHub Page](https://gentryhq.github.io/loopstudios-landing-page)
 
 ## My process
 
